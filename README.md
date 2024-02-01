@@ -1,2 +1,2 @@
 # MarkoPortfolio
-A website to showcase projects
+A website to showcase projects.

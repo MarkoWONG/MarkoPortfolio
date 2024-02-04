@@ -1,6 +1,4 @@
-// import AboutImg from "../images/about-img.webp";
-// import RoundedText from "../images/text2.svg";
-// import WorkingEmoji from "../images/working-emoji.png";
+import AboutImg from "../images/stockImage.webp";
 
 function AboutMe() {
   return (
@@ -9,11 +7,7 @@ function AboutMe() {
         <div className="container">
           <div className="about-content">
             <div className="img-side">
-              {/* <img src={WorkingEmoji} alt="emoji" className="work-emoji" />
-              <img src={AboutImg} alt="mee" className="img-side__main-img" /> */}
-              <span>
-                {/* <img src={RoundedText} alt="text" /> */}
-              </span>
+              <img src={AboutImg} alt="mee" className="img-side__main-img" />
             </div>
             <div className="text-side">
               <h3>About me</h3>
@@ -21,12 +15,16 @@ function AboutMe() {
                 Software Engineer <br /> based in Sydney, Australia
               </h4>
               <p>
-                Hey, my name is Marko, and I'm a Software Engineer. My passion
-                is to create and develop full stack application for my users.
+                Hello, my name is Marko, and I'm a Software Engineer. I finished 
+                all my software engineering courses on Feburary 2024 at University of New South Wales (UNSW).
                 <br />
                 <br />
-                My main stack currently is React/Next.js in combination with
-                CSS and TypeScript.
+                My passion is to create and develop software solutions for my users. 
+                I had worked on numerous projects in the past and with different clients.
+                One such client was St Vincent Hospital which involved the creation of a mobile app. 
+                <br />
+                <br />
+                The recent stacks I had worked on includes: Javascript, React, HTML, CSS, Python, Firebase and much more.
               </p>
             </div>
           </div>

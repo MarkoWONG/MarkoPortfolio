@@ -8,19 +8,9 @@ function Contact() {
           <div className="contact__content">
             <div className="contact__title">
               <p>contact</p>
-              <h3>Don't be shy! Hit me up!</h3>
+              <h3>Want to learn more about me? Get in touch via:</h3>
             </div>
             <div className="contact__icons">
-              <div className="contact__icon-box">
-                <span>
-                  <IconMapSearch width={30} height={30} />
-                </span>
-                <div className="contact__info">
-                  <h3>Location</h3>
-                  <p>Sydney, Australia</p>
-                </div>
-              </div>
-
               <div className="contact__icon-box">
                 <span>
                   <IconMail width={30} height={30} />
@@ -32,6 +22,18 @@ function Contact() {
                   </a>
                 </div>
               </div>
+
+              <div className="contact__icon-box">
+                <span>
+                  <IconMapSearch width={30} height={30} />
+                </span>
+                <div className="contact__info">
+                  <h3>Location</h3>
+                  <p>Sydney, Australia</p>
+                </div>
+              </div>
+
+              
             </div>
           </div>
         </div>
